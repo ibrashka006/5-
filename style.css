@@ -1,0 +1,71 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+
+}
+nav{
+    padding: 20px;
+}
+.wrap{ 
+        display: flex;  
+        margin-left: 25%;
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #0093b4;
+        border: 2px solid #ff000000;
+        border-radius: 15px;
+        transition: all 0.3s ease;
+    }
+    .wrap :hover{
+        background-color: #ffffff;
+        color: #ff5252;
+        border: 2px solid #ff5252;
+        box-shadow: 5px 5px 0px #ff5252 ;
+    }
+    .wrap:active{
+        background-color: #000000;
+        box-shadow: none;
+        transform: translateY(5px);
+    }
+    
+#nije{
+    padding: 20px 22px;
+    border-radius: 10px;
+}
+
+#all{
+    padding: 20px 22px;
+    border-radius: 10px;
+}
+#vyshe{
+    padding: 20px 22px;
+    border-radius: 10px;    
+}
+input{
+    padding: 20px 22px;
+    border-radius: 10px;
+}
+.alls{
+width: 500px;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+.alls h2{
+    font-family:Arial, Helvetica, sans-serif;
+   
+}   
+.alls h4{
+    font-family:Arial, Helvetica, sans-serif;
+}  
